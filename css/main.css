@@ -1,0 +1,98 @@
+body {
+/*    background-color:rgb(2,2,2);*/
+    opacity:1;
+    width:100%;
+        background:url(../img/cover.jpg) no-repeat center center fixed;
+    background-size:cover;
+    font-family:"Poiret One", cursive;
+}
+
+.test {
+
+    z-index:1;
+}
+.container {
+    width: 960px;
+    margin:auto;
+}
+
+.nav ul {
+    margin:0px;
+    padding:0px;
+}
+
+.nav li{
+ text-decoration:none;
+     list-style-type: none;
+        display:inline;
+    padding:0px 3px;
+}
+
+.nav li a {
+         -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+.brand p {
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.brand p {
+    font-size:30px;
+    margin:0px;
+    color:white;
+}
+
+.brand a {
+ text-decoration:none;   
+}
+
+.nav li a{
+ text-decoration:none;
+    color:white;
+}
+
+.nav li a:hover{
+ text-decoration:underline;
+    color:white;
+}
